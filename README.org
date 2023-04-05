@@ -1,0 +1,11 @@
+#+title: Readme
+
+* To run the project:
+** Open Terminal:
+** Execute thes commands:
+#+BEGIN_SRC bash
+$ git clone https://github.com/Hamda345/meme-generator.git
+$ cd meme-generator/
+$ npm install
+$ npm start
+#+END_SRC

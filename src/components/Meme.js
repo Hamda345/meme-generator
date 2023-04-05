@@ -5,8 +5,8 @@ import memeData from "../memeData.js"
 
 export default function Meme() {
 	const [meme, setMeme] = React.useState({
-		topText: "",
-		bottomText: "",
+		topText: "Top text here ",
+		bottomText: "Bottm text here",
 		randomImage: "http://i.imgflip.com/1bij.jpg"
 	})
 	
@@ -41,7 +41,9 @@ export default function Meme() {
                     Get a new meme image 🖼
                 </button>
             </div>
+            <span>{meme.topText}</span>
             <img src={meme.randomImage} className="meme--image" />
+            <span>{meme.bottomText}</span>
         </main>
 	)
 }
